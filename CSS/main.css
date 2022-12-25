@@ -1,0 +1,101 @@
+/* Below code is written because 
+the DOM file automatically create a small border on the rendered page 
+To avoid the above * code is applied */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Below code is written to style the dev with class name container */
+.container{
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    border: 10px solid #1D1E4C;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1D1E4C;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top_section h4{
+    margin-top: 18px ;
+    color: #1D1E4C;
+    text-align: end;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image_container,
+img {
+    width: 300px;
+    height: 320px;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about_section h1{
+    margin-top: 100px;
+    font-size: 50px;
+    color: #1D1E4C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about_section p{   
+    margin-top: 18px;
+    color: #1D1E4C;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+.biographies{
+    margin-top: 100px;
+}
+.biographies h3{
+    color: #1D1E4C;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.biographies ul{
+    margin-top: 18px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    color: #1D1E4C;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.footer{
+    margin-bottom: 100px;
+    color: #1D1E4C;
+    font-size: 18   px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: end;
+
+}
+
